@@ -1,0 +1,231 @@
+.topFixedBanner {
+  background-image: url("../image/fixed\ image.jpg");
+
+  max-width: 100%;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topBannerOverlay {
+  position: absolute;
+  min-height: 500px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.topContent {
+  margin-top: 12rem;
+}
+.contentTitle {
+  font-family: "Montserreat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+}
+.contentSubTitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.navTitle {
+  font-family: "Montserreat", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navTitle:hover {
+  font-family: "Montserreat", sans-serif;
+  color: #ff0404 !important;
+  font-weight: 700;
+  font-size: 26px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navSubtitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.navSubtitle:hover {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #f5f3f3 !important;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: blueviolet;
+}
+
+.navBar {
+  background-color: rgb(71, 69, 77);
+}
+.mobile {
+  padding: 30px;
+  align-items: center;
+  text-align: center;
+}
+.Title {
+  font-family: "Montserreat", sans-serif;
+  color: #093a85;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+}
+.mobileCard {
+  border-radius: 2px;
+  border: none !important;
+  margin: 10px;
+  box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+  padding: 10px;
+}
+.mobileCard:hover {
+  box-shadow: 0 0 15px 0 rgba(0, 115, 230, 0.8);
+  cursor: pointer;
+}
+.mobileCardTitle {
+  font-family: "Montserreat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.mobileCardDes {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.laptopImg {
+  width: 100%;
+}
+.laptopCard {
+  margin-bottom: 20px;
+
+  padding: 10px;
+  cursor: pointer;
+}
+.laptopCardTitle {
+  font-family: "Montserreat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.laptopCardDes {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.laptopCardDetails {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.footerCard {
+  background-color: rgb(71, 69, 77);
+
+  max-width: 100%;
+}
+.footerTitle {
+  font-family: "Montserreat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 15px;
+}
+.fooreSubTitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
+}
+.fooreSubTitle:hover {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fd0909;
+
+  cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footerDec {
+  text-decoration: none;
+}
+.footerCredit {
+  font-family: "Montserreat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid wheat;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+.footerColumn {
+  padding-left: 250px;
+}
+.pageTopFixedBanner {
+  background-image: url("../image/fixed\ image.jpg");
+
+  max-width: 100%;
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pageTopBannerOverlay {
+  position: absolute;
+  min-height: 300px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.pagetopContent {
+  margin-top: 8rem;
+}
+.pageContentTitle {
+  font-family: "Montserreat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  text-align: center;
+}
+.mobileDetailImg {
+  width: 100%;
+  max-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.laptopDetailImg {
+  width: 100%;
+  max-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.accessoriesDetailImg {
+  width: 100%;
+  max-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.linkStyle {
+  color: white !important;
+  text-decoration: none !important;
+}
+.linkStyle:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
